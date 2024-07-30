@@ -1,5 +1,86 @@
-
 img {
-    width: 200px;
-    height: auto;
+  width: 200px;
+  height: auto;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  background-color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: #624F82;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 50px;
+  height: 80px;
+}
+
+nav .left a {
+  color: #333;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+nav .right a {
+  color: #333;
+  margin: 0 10px;
+}
+
+nav .right a:last-child {
+  color:#333;
+  background-color: #9F73AB ;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+/* space between icon and text */
+nav .right a span {
+  margin-left: 5px;
+}
+
+@media (max-width: 600px) {
+  /* NAVBAR */
+  nav {
+    padding: 0 20px;
+  }
+
+  nav .right a{
+    font-size: 22px;
+  }
+
+  nav .right a:last-child{
+    font-size: 22px;
+  }
+
+  nav .right a span {
+    color: #333;
+    background-color: transparent;
+    padding: 0;
+
+  }  
+}
+
+/* #3F3B6C dark purple
+#624F82 medium purple  
+#9F73AB light purple
+#A3C7D6  blue*/
