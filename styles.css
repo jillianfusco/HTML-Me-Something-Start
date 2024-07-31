@@ -3,20 +3,15 @@ img {
   height: auto;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   color: #333;
   background-color: whitesmoke;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 50px;
 }
 
 a {
-  color: #624F82;
+  color: #624f82;
   font-weight: bold;
   text-decoration: none;
 }
@@ -25,14 +20,40 @@ html {
   scroll-behavior: smooth;
 }
 
+h2 {
+ color: #3F3B6C;
+}
+
+header h2 {
+  color: #333;
+}
+
+article {
+  background-color: #D3D3D3;
+}
+
+.project-img {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  max-width: 100%;
+  height: auto;
+  flex: 1;
+  margin: 5px;
+}
+
+.kittycart {
+  display: flex;
+  justify-content: center;
+}
 /* NAVBAR */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 0 50px;
   height: 80px;
+  background-color: #a3c7d6;
 }
 
 nav .left a {
@@ -46,38 +67,21 @@ nav .right a {
   margin: 0 10px;
 }
 
-nav .right a:last-child {
-  color:#333;
-  background-color: #9F73AB ;
-  padding: 5px 15px;
-  border-radius: 5px;
+nav a:hover {
+  color: #9F73AB;
 }
 
-/* space between icon and text */
 nav .right a span {
   margin-left: 5px;
 }
 
-@media (max-width: 600px) {
-  /* NAVBAR */
-  nav {
-    padding: 0 20px;
-  }
+/* SECTION 1: HERO */
+a:hover {
+  color: #a3c7d6;
+}
 
-  nav .right a{
-    font-size: 22px;
-  }
-
-  nav .right a:last-child{
-    font-size: 22px;
-  }
-
-  nav .right a span {
-    color: #333;
-    background-color: transparent;
-    padding: 0;
-
-  }  
+.headshot img {
+  border-radius: 50%;
 }
 
 /* #3F3B6C dark purple
