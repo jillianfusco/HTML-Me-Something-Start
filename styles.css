@@ -48,7 +48,7 @@ article {
   margin: 5px;
 }
 
-.kittycart {
+.kittycart {  
   display: flex;
   justify-content: center;
 }
@@ -94,8 +94,10 @@ a:hover {
 .hero-section {
   display: flex;
   padding: 25px;
+  gap: 50px;
 }
 
+/* LaunchCode Test */
 .funParagraph {
   color: green;
 }
@@ -103,6 +105,7 @@ a:hover {
 #mainHeading {
   color: red;
 }
+
 /* #3F3B6C dark purple
 #624F82 medium purple  
 #9F73AB light purple
