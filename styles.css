@@ -32,10 +32,16 @@ article {
   background-color: #D3D3D3;
 }
 
+.img-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .project-img {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  gap: 5px;
   max-width: 100%;
   height: auto;
   flex: 1;
@@ -46,6 +52,7 @@ article {
   display: flex;
   justify-content: center;
 }
+
 /* NAVBAR */
 nav {
   display: flex;
@@ -84,6 +91,18 @@ a:hover {
   border-radius: 50%;
 }
 
+.hero-section {
+  display: flex;
+  padding: 25px;
+}
+
+.funParagraph {
+  color: green;
+}
+
+#mainHeading {
+  color: red;
+}
 /* #3F3B6C dark purple
 #624F82 medium purple  
 #9F73AB light purple

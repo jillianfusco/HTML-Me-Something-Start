@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>From Teacher to Web Dev | Jillian Fusco</title>
+    <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +17,7 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="styles.css" />
+    
   </head>
 
   <body>
@@ -25,12 +26,12 @@
         <a href="/">Jillian Fusco</a>
       </div>
       <div class="right">
-        <a href="https://github.com/jillianfusco" target="_blank"
-          ><i class="fa-brands fa-github"></i>
+        <a href="https://github.com/jillianfusco" target="_blank">
+          <i class="fa-brands fa-github"></i>
           <span>Github</span>
         </a>
 
-        <a href="https://www.linkedin.com/in/jillian-fusco-45535688/">
+        <a href="https://www.linkedin.com/in/jillian-fusco-45535688/" target="_blank">
           <i class="fa-brands fa-linkedin"></i>
           <span>LinkedIn</span>
         </a>
@@ -78,10 +79,12 @@
           graduate-level classes after work to complete the requirements for my
           teaching certificate.
         </p>
-        <img src="img/grad.JPG" alt="Jillian graduates from WCU" />
-        <img src="img/wein-rathaus.jpg" alt="Rathaus in Vienna" />
-        <img src="img/wein-karlskirche.JPG" alt="Karlskirche in Vienna" />
-        <img src="img/wein-karlsplatz.JPG" alt="Karlsplatz in Vienna" />
+        <div class="img-container">
+          <img src="img/grad.JPG" alt="Jillian graduates from WCU" />
+          <img src="img/wein-rathaus.jpg" alt="Rathaus in Vienna" />
+          <img src="img/wein-karlskirche.JPG" alt="Karlskirche in Vienna" />
+          <img src="img/wein-karlsplatz.JPG" alt="Karlsplatz in Vienna" />
+        </div>
       </section>
 
       <section id="traveling-to-germany">
@@ -93,16 +96,18 @@
           memorable experiences were a bike ride along the Danube and a trip to
           the top of the Zugspitze, Germany's tallest mountain.
         </p>
-        <img src="img/bikes.jpg" alt="Thirty bikes lined up against a wall" />
-        <img src="img/bike-ride-meadow.jpg" alt="Meadow" />
-        <img
-          src="img/neuschwanstein lake.jpg"
-          alt="Lake at the base of neuschwanstein castle"
-        />
-        <img
-          src="img/zugspitze-goat.jpg"
-          alt="Jill posing with a goat statue at the top of the Zugspitze"
-        />
+        <div class="img-container">
+          <img src="img/bikes.jpg" alt="Thirty bikes lined up against a wall" />
+          <img src="img/bike-ride-meadow.jpg" alt="Meadow" />
+          <img
+            src="img/neuschwanstein lake.jpg"
+            alt="Lake at the base of neuschwanstein castle"
+          />
+          <img
+            src="img/zugspitze-goat.jpg"
+            alt="Jill posing with a goat statue at the top of the Zugspitze"
+          />
+        </div>
       </section>
 
       <section id="getting-classroom">
@@ -113,17 +118,19 @@
           classrooms. After 4 years I finally got my own classroom to decorate
           and call my own!
         </p>
-        <img
-          src="img/classroom1.jpg"
-          alt="Decorated bulletin board with backpack hanging"
-        />
+        <div class="img-container">
+          <img
+            src="img/classroom1.jpg"
+            alt="Decorated bulletin board with backpack hanging"
+          />
 
-        <img src="img/classroom3.jpg" alt="Teacher's desk" />
-        <img src="img/classroom4.jpg" alt="Decorated classroom with posters" />
-        <img
-          src="img/classroom5.jpg"
-          alt="Doorway outside of Frau Fusco's classroom"
-        />
+          <img src="img/classroom3.jpg" alt="Teacher's desk" />
+          <img src="img/classroom4.jpg" alt="Decorated classroom with posters" />
+          <img
+            src="img/classroom5.jpg"
+            alt="Doorway outside of Frau Fusco's classroom"
+          />
+        </div>
       </section>
 
       <section id="leaving-teaching">
@@ -185,8 +192,8 @@
             Scrimba. It connects to a database so multiple people can use it
             simultaneously. I use it with my partner to keep our grocery list.
             Read my blog post about
-          </p>
-          <a href="https://dev.to/jillianfusco/celebrating-finishing-my-first-javascript-module-and-using-firebase-for-a-shopping-list-app-2cn0">Kitty Cart here!</a>
+          
+          <a href="https://dev.to/jillianfusco/celebrating-finishing-my-first-javascript-module-and-using-firebase-for-a-shopping-list-app-2cn0">Kitty Cart here!</a></p>
           <div class="kittycart">
             <img  src="img/kittycartgif.webp" alt="Kitty Cart gif" />
           </div>
@@ -251,7 +258,8 @@
 
     <footer>
       <p>
-        <small>&copy; Jillian Fusco 2024</small>
+
+        <small>&copy;<a href="/">Jillian Fusco</a> 2024</small>
       </p>
     </footer>
   </body>
