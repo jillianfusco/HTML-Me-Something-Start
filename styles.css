@@ -47,6 +47,7 @@ article {
   height: auto;
   flex: 1;
   margin: 5px;
+  margin-bottom: 30px;
 }
 
 .kittycart {  
@@ -99,6 +100,9 @@ a:hover {
   background-color: #E8E8E8;
 }
 
+#lc-projects {
+  margin-bottom: 50px;
+}
 /* LaunchCode Test */
 .funParagraph {
   color: green;
