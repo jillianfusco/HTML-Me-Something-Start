@@ -50,9 +50,23 @@ article {
   margin-bottom: 30px;
 }
 
+.lc-project-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.lc-project-img img {
+  width: 500px;
+}
+
 .kittycart {  
   display: flex;
   justify-content: center;
+}
+
+.kittycart img {
+  width: 300px;
 }
 
 /* NAVBAR */
@@ -101,8 +115,9 @@ a:hover {
 }
 
 #lc-projects {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
+
 /* LaunchCode Test */
 .funParagraph {
   color: green;
